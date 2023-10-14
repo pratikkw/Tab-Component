@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab Component</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <!-- Button Container -->
+        <div class="btn__container">
+          <button class="btn btn-1 btn--active" data-btn="1">Star Wars</button>
+          <button class="btn btn-2" data-btn="2">Space X</button>
+          <button class="btn btn-3" data-btn="3">Dell Technologies</button>
+        </div>
+
+        <!-- Content Container -->
+        <ul class="content__container">
+          <!-- Content 1 -->
+          <li class="content content-1 content--active">
+            <div class="img__box">
+              <img
+                src="Star_Wars-Logo.wine.svg"
+                alt="A capital letter black color Star wars text"
+              />
+            </div>
+            <div class="text__area">
+              <div class="content__heading">
+                <h2 class="primary-heading">About Star Wars</h2>
+              </div>
+              <div class="content__description">
+                <p class="para">
+                  Star Wars was created by George Lucas in 1977 and it became a
+                  worldwide pop-culture phenomenon. It is now owned by
+                  Lucasfilm. Star Wars is a science-fiction franchise consisting
+                  of movies, books, comics, video games, toys, live action
+                  shows, and animated shows. It became one of the most
+                  successful and influential franchises in motion picture
+                  history.
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <!-- Content 2 -->
+          <li class="content content-2">
+            <div class="img__box">
+              <img
+                src="SpaceX-Logo.wine.svg"
+                alt="A black color space X logo"
+              />
+            </div>
+            <div class="text__area">
+              <div class="content__heading">
+                <h2 class="primary-heading">About SpaceX</h2>
+              </div>
+              <div class="content__description">
+                <p class="para">
+                  SpaceX, also known as Space Exploration Technologies
+                  Corporation, was founded in 2002 by Elon Musk and it is
+                  headquartered in Hawthorne, California. SpaceX is an American
+                  aerospace manufacturer and space transportation services
+                  company which has the goal to reduce space transportation
+                  costs to enable the colonization of Mars.
+                  <br />
+                  It was the first private company to launch and return a
+                  spacecraft from Earth orbit and the first to launch a crewed
+                  spacecraft and dock it with the International Space.
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <!-- Content 3 -->
+          <li class="content content-3">
+            <div class="img__box">
+              <img
+                src="Dell_Technologies-Logo.wine.svg"
+                alt="Dell Technologies Logo"
+              />
+            </div>
+            <div class="text__area">
+              <div class="content__heading">
+                <h2 class="primary-heading">About Dell Technologies</h2>
+              </div>
+              <div class="content__description">
+                <p class="para">
+                  Dell Technologies was founded by Michael Saul Dell in 1984 and
+                  on September 7, 2016 it merged with EMC Corporation. The
+                  company is headquartered in Round Rock, Texas.
+                  <br />
+                  Dell is an American multinational technology company which
+                  engages in the provision of information technology hardware,
+                  software, and service solutions through its subsidiaries.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
